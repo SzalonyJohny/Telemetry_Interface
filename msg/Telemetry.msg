@@ -1,0 +1,16 @@
+std_msgs/Header header         # standard ROS message header
+int64 lap_number
+float64 distance_on_track
+float64 velocity_along_path
+float64 v_x
+float64 v_y
+float64 v
+float64 yaw_rate
+float64 yaw
+float64 e_lateral
+float64 e_lateral_dot
+float64 alpha
+float64 control_acceleration
+float64 control_delta
+geometry_msgs/PointStamped look_ahead
+string error_str
