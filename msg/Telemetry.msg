@@ -12,5 +12,10 @@ float64 e_lateral_dot
 float64 alpha
 float64 control_acceleration
 float64 control_delta
+float64 control_delta_curve
+float64 k_path
+float64 k_corrective
+float64 k_targeg
+float64 k_now
 geometry_msgs/PointStamped look_ahead
 string error_str
