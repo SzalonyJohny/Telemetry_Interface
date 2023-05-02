@@ -5,6 +5,8 @@ float64 velocity_along_path
 float64 v_x
 float64 v_y
 float64 v
+float64 v_ref
+float64 v_heading
 float64 yaw_rate
 float64 yaw
 float64 e_lateral
@@ -15,7 +17,8 @@ float64 control_delta
 float64 control_delta_curve
 float64 k_path
 float64 k_corrective
-float64 k_targeg
+float64 k_target
 float64 k_now
+
 geometry_msgs/PointStamped look_ahead
 string error_str
