@@ -23,4 +23,6 @@ float64 k_corrective
 float64 k_target
 float64 k_now
 geometry_msgs/PointStamped look_ahead
+float64 look_ahead_distance
+float64 last_lap_time
 string error_str
